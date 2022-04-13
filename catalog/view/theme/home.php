@@ -2,7 +2,9 @@
     <div id="slick-main" data-arrows="false" data-dots="false" data-height="70%" data-draggable="false" data-fade="true" class="ct-slick ct-js-slick ct-slick--main ct-u-background--accent">
         <!-- <div data-background="uploads/bg3.jpg" class="ct-header item"></div> -->
         <?php foreach($banners as $val){ ?>
-        <div data-light class="ct-header item ct-u-background--gray-lighter">
+        <div data-light class="ct-header item ct-u-background--gray-lighter" style="    background-image: url(assets/images/demo-content/header-bg.jpg);
+    background-position: center;
+    background-size: cover;">
             <div class="inner">
                 <div class="container">
                     <div class="row ct-product">
@@ -11,9 +13,9 @@
                         </div>
                         <div class="col-sm-4 ct-u-padding-top-40">
                             <h3 class="ct-u-margin-bottom-20"><span><?php echo $val['title']; ?></span></h3>
-                            <?php echo mb_strimwidth(strip_tags($val['detail']), 0, 100, "..."); ?>
+                            <div style="color:#fff;"><?php echo mb_strimwidth(strip_tags($val['detail']), 0, 100, "..."); ?></div>
                             <div class="ct-separator ct-u-padding-both-0 ct-u-margin-bottom-30"></div>
-                            <a href="<?php echo route('home/blogDetail&id='.$val['id']); ?>" class="btn btn-accent-o ">ดูรายละเอียด
+                            <a style="color:#fff;" href="<?php echo route('home/blogDetail&id='.$val['id']); ?>" class="btn btn-accent-o ">ดูรายละเอียด
                             </a>
                         </div>
                     </div>

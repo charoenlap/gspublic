@@ -33,7 +33,7 @@
 
 <body data-spy="scroll" class="cssAnimate page-white">
     <nav class="ct-menu">
-        <div class="navbar navbar-fixed text-center navbar-inverse ">
+        <div class="navbar navbar-fixed text-center navbar-inverse " style="    background: #fff !important;">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <a href="<?php echo route('home'); ?>" class="navbar-brand">
