@@ -13,7 +13,7 @@
                             <h3 class="ct-u-margin-bottom-20"><span><?php echo $val['title']; ?></span></h3>
                             <?php echo mb_strimwidth(strip_tags($val['detail']), 0, 100, "..."); ?>
                             <div class="ct-separator ct-u-padding-both-0 ct-u-margin-bottom-30"></div>
-                            <a href="<?php echo route('home/blogDetail&id='.$val['id']); ?>" class="btn btn-accent-o ct-product__wishlist">ดูรายละเอียด
+                            <a href="<?php echo route('home/blogDetail&id='.$val['id']); ?>" class="btn btn-accent-o ">ดูรายละเอียด
                             </a>
                         </div>
                     </div>
