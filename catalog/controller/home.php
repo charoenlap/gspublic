@@ -78,5 +78,11 @@
 	    	$data['descreption'] = "";
  	    	$this->view('about',$data); 
 	    }
+	    public function calendar() {
+	    	$data = array();
+	    	$data['title'] = "";
+	    	$data['descreption'] = "";
+ 	    	$this->view('calendar',$data); 
+	    }
 	}
 ?>

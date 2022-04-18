@@ -42,7 +42,7 @@
             <?php 
                 $event = $event; 
                 $date=date_create($event['date_start']); 
-                $date2=date_create("2013-12-12");
+                $date2=date_create();
                 $diff=date_diff($date,$date2);
             ?>
             <div class="row ct-u-padding-bottom-60">

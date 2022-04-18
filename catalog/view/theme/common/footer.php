@@ -1,5 +1,5 @@
-<footer class="ct-footer">
-        <div class="container">
+<footer class="ct-footer " >
+        <div class="container" style="padding-top: 30px;">
             <div class="row">
                 <!-- COLUMN-->
                 <div class="col-md-3 col-sm-6">

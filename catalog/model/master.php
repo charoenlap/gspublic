@@ -1,6 +1,10 @@
 <?php 
 	class MasterModel extends db {
-		 public function getPackage(){
+        public function getContent(){
+            $query = $this->query("SELECT * FROM gs_content_sub"); 
+            return $query->rows;
+        }
+		public function getPackage(){
             $query = $this->query("SELECT * FROM gs_package"); 
             return $query->rows;
         }

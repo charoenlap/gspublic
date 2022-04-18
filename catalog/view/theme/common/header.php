@@ -24,6 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap" rel="stylesheet">
+
     <style>
         div,p,a,li,span,h1,h2,h3,h4,h5,h6 {
             font-family: 'Kanit', sans-serif !important ;
@@ -57,6 +58,8 @@
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="nav-item"><a href="<?php echo route('home');?>">หน้าหลัก</a>
+                    </li>
+                    <li class="nav-item"><a href="<?php echo route('home/calendar');?>">ตรางเวลา</a>
                     </li>
                     <li role="presentation" class="dropdown nav-item"><a data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle">บทความ & ข่าวสาร<span><i class="fa fa-angle-down"></i></span></a>
                         <ul class="dropdown-menu">
